@@ -53,6 +53,13 @@
     </dependency>
   </dependencies>
   <build>
+    <extensions>
+      <extension>
+        <groupId>org.opoo.press.maven.wagon</groupId>
+        <artifactId>opoopress-wagon-github</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+      </extension>
+    </extensions>
     <plugins>
       <plugin>
         <groupId>io.quarkus</groupId>

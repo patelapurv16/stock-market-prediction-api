@@ -1,0 +1,6 @@
+deploy_server: {
+  id: "github",
+  url: "https://github.com/patelapurv16/stock-market-prediction-api/Quarkus-Application",
+  branch: "refs/heads/gh-pages",
+  message: "Commit my website."
+}
